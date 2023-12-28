@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Page Title</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
+    <script src='main.js'></script>
+    <style>
+        body
+        {
+            background-color: lightgray;
+        }
+        input,textarea,select
+        {
+            width: 30%;
+            height: auto;
+            padding: 5px;
+        }
+        input[type= "radio"]
+        {
+            width: 1%;
+            height: auto;
+            padding: 5px;
+        }
+        input[type= "checkbox"]
+        {
+            width: 1%;
+            height: auto;
+            padding: 5px;
+        }
+        input[type= "submit"]
+        {
+            width: 15%;
+            height: auto;
+            padding: 10px;
+            background-color: black;
+            color: white;
+            border: none;
+            font-size: 20px;
+            margin-left: 7%;
+        }
+        label
+        {
+            width: 50%;
+            height: auto;
+            padding: 5px;
+            margin: 1%;
+            margin-left: 2%%;
+            
+        }
+    </style>
+</head>
+<body>
+    
+   <form>
+    <h1>Student Registaration Form</h1>
+    <label>First Name:</label>
+    <br>
+    <input type="text" placeholder="Enter your first name" required>
+    <br><br>
+    <label>Last Name:</label>
+    <br>
+    <input type="text" placeholder="Enter your name" required>
+    <br><br>
+    <label>Email:</label>
+    <br>
+    <input type="text" placeholder="it should contain @..." required>
+    <br><br>
+    <label>Mobile:</label>
+    <br>
+    <input type="text" placeholder="only 10 digits are allowed" required>
+    <br><br>
+    <label>gender</label>
+    <br>
+    <input type="radio" name="male" placeholder="male"> male
+    <input type="radio" name="female" placeholder="female"> female
+    <br><br>
+    <label>Date Of Birth:</label>
+    <br>
+    <input type="date" placeholder="select date">
+    <br><br>
+    <label>Address:</label>
+    <br>
+   <textarea name="Address" placeholder="Address" required></textarea>
+   <br><br>
+   <label>City:</label>
+   <br>
+   <input type="text" placeholder="">
+   <br><br>
+   <label>Area PIN:</label>
+   <br>
+   <input type="text" placeholder="">
+   <br><br>
+   <label>State:</label>
+   <br>
+   <input type="text" placeholder="">
+   <br><br>
+   <label>Qualification:</label>
+   <br>
+   <select name="education">
+    <option value="">select Qualification</option>
+    <option value="1">B.COM</option>
+    <option value="2">BCA</option>
+    <option value="3">BBA</option>
+    <option value="4">Graduate</option>
+   </select>
+   <br><br>
+   <label>Specialization:</label>
+   <br>
+   <input type="checkbox" name="text" placeholder="computer science"> computer science
+   <br>
+   <input type="checkbox" name="text" placeholder="information technology"> information technology
+   <br>
+   <input type="checkbox" name="text" placeholder="computer architecture"> computer architecture
+   <br>
+   <input type="checkbox" name="text" placeholder="tele communication"> tele communication
+   <br><br>
+   <label>Password:</label>
+   <br>
+   <input type="text" placeholder="">
+   <br><br>
+   <input type="submit" value="registred" >
+</form>
+   
+
+</body>
+</html>
